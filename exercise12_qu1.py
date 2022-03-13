@@ -4,7 +4,7 @@ cheese = ['Cheddar', 'Stilton', 'Cornish Yarg']
 cheese += 'Oke',
 print(cheese)
 # Append only takes one argument
-cheese += ['raclette', 'halloumi']
+cheese += 'raclette', 'halloumi'
 cheese[:0]='edam', 'gouda'
 cheese.extend(['gruyere', 'red leicester'])
 print(cheese)
